@@ -1,0 +1,5 @@
+doctype is html
+titel is SportFocus vzw - Zwemlessen - Sportkampen - Voetbal
+de gebruikte charset is UTF-8
+de webpagina heeft een 20tal errors
+favicon is the little icon on the left side of a tab or a browser window

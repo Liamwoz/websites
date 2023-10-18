@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        table {
+            border: 3px solid black;
+            border-collapse: collapse;
+        }
+        th, td {
+            border: 1px solid black;
+            height: 50px;
+            margin: 4px;
+            text-align: center;
+        }
+        th {
+            font-weight: bold;
+            background-color: lightgrey;
+        }
+        caption {
+            font-weight: bold;
+            padding: 5px;
+        }
+        .colomn2 {
+            width: 200px;
+        }
+        .column4 {
+            width: 100px;
+        }
+        .green {
+            background-color: lightgreen;
+        }
+        .red {
+            background-color: red;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <caption>Aantal koppen koffie per persoon</caption>
+        <col><col span="2" class="colomn2"><col span="2" class="colomn4">
+        <tr>
+            <td rowspan="5"><img src="/Les 04 - Startbestanden/koffie.jpg" alt="Foto van koffiemok"></td>
+            <th>Naam</th>
+            <th>Aantal koppen</th>
+            <th>Type</th>
+            <th>Suiker</th>
+        <tr>
+            <td>Jasper Vervliet</td>
+            <td>10</td>
+            <td>Zo zwart mogelijk</td>
+            <td class="green">ja</td>
+        </tr>
+        <tr>
+            <td>Maaike van den Bulck</td>
+            <td class="green">15</td>
+            <td>normaal</td>
+            <td class="red">nee</td>
+        </tr>
+        <tr>
+            <td>Nele Beerten</td>
+            <td class="red">0</td>
+            <td>deca</td>
+            <td class="green">ja</td>
+        </tr>
+        <tr>
+            <td>Anja Raymaekers</td>
+            <td>6</td>
+            <td>normaal</td>
+            <td class="green">ja</td>
+        </tr>
+    </table>
+</body>
+</html>
