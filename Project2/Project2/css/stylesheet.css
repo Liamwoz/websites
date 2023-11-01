@@ -1,0 +1,45 @@
+.navbar-custom {
+    background-color: #6F00FF;
+}
+
+.text-custom {
+    color: #E0E1E4;
+}
+
+.text-custom:hover {
+    color: white;
+}
+
+.navbar-nav > .active > a {
+    color: white;
+}
+
+.img1 {
+    width: 400px;
+    align-content: center;    
+}
+
+.img2 {
+    max-height: 230px;
+}
+
+.img3 {
+    max-height: 1400px;
+}
+
+body {
+    background-color: #212529;
+    color: #dee2e6;
+}
+
+.hero-color {
+    background-color: #1b1f22 !important;
+}
+
+.img4 {
+    max-width: 200px;
+}
+
+.img5 {
+    width: 475px;
+}
